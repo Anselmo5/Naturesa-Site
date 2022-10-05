@@ -1,0 +1,117 @@
+body{
+    background-color: wheat;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+   
+}
+
+
+
+
+.escopo{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 450px;
+    width: 800px;
+    margin-top: 60px;
+    box-shadow: inset 0 0 0 5px white;
+    padding: 10px;
+}
+
+.introdução{
+    width: 50%;
+}
+
+.introdução img{
+    
+    width: 350px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.informação{
+    padding: 10px;
+    border: 2px solid black;
+    text-align: justify;
+    width: 430px;
+    height: 420px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.informação p{
+    margin-top: 10px;
+}
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+    }
+    .btn .titulo{
+        border: 2px solid white;
+        border-radius: 6;
+        width: 400px;
+        height: 50px;
+        margin-top: 10px;
+       
+
+
+    }
+
+    .titulo h1{
+      
+        font-family: Georgia, cursive;
+        text-align: center;
+        padding: 5px;
+
+     
+      
+    }
+
+
+    .pagina-seguinte{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .pagina-seguinte button{
+        border: 2px solid black;
+        padding: 5px;
+        border-radius: 6px;
+        margin-top: 10px;
+
+    }
+
+
+    .btn-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     }
+
+
+    .btn-3 button{
+        width: 63px;
+        border: 2px solid black;
+        border-radius:6px;
+        padding: 5px;
+        margin-top: 3px;
+    
+    }

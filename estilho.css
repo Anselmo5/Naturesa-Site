@@ -1,0 +1,104 @@
+body{
+    background-color: wheat;
+}
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.fora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dentro{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 5px white;
+    padding: 20px;
+    margin-top: 80px;
+    width: 700px;
+    height: 450px;
+}
+
+
+.ctx{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+}
+
+.htx{
+    display: flex;
+    text-align: center;
+    border: 2px solid white;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+.visual{
+    width: 60%;
+    height: 60%;
+}
+
+.visual img{
+    width: 70%;
+    height: 50%;
+    margin-top: 5px;
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 6px;
+    
+}
+
+.conteudo{
+    border: 2px solid black ;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.conteudo p{
+    text-align: justify;
+}
+
+.volta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.volta button{
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.ida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ida button{
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
